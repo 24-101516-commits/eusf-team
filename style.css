@@ -364,7 +364,7 @@ margin-bottom: 40px;
 }
 
 .news-page .categories .title p {
-    max-width: none;
+max-width: none;
 }
 
 .category-cards {
@@ -425,4 +425,765 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 22px;
 margin-top: 40px;
+}
+
+.news-page .timeline .card {
+background-color: #242936;
+border-radius: 9px;
+box-shadow: none;
+}
+
+.news-page .timeline .card > img {
+width: 100%;
+height: 155px;
+object-fit: cover;
+}
+
+.news-page .timeline .card .info {
+padding: 20px;
+}
+
+.news-page .timeline .card .info span {
+background: none;
+padding: 0;
+color: #ff4655;
+font-size: 12px;
+}
+
+.news-page .timeline .card .info h3 {
+color: white;
+font-size: 16px;
+line-height: 1.7;
+margin-top: 15px;
+min-height: 110px;
+}
+
+.newsletter {
+padding: 60px 5%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #d92535;
+color: white;
+gap: 30px;
+}
+
+.newsletter-text {
+width: 50%;
+}
+
+.newsletter-text span {
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1px;
+}
+
+.newsletter-text h2 {
+font-size: 34px;
+line-height: 1.3;
+margin-top: 12px;
+}
+
+.newsletter-text p {
+font-size: 15px;
+line-height: 1.6;
+margin-top: 12px;
+color: #ffe2e5;
+}
+
+.newsletter-form {
+display: flex;
+width: 500px;
+height: 55px;
+background-color: white;
+border-radius: 7px;
+overflow: hidden;
+}
+
+.newsletter-form input {
+width: 68%;
+padding: 0 18px;
+border: none;
+outline: none;
+font-size: 14px;
+}
+
+.newsletter-form button {
+width: 32%;
+background-color: #151923;
+color: white;
+font-size: 14px;
+font-weight: 700;
+}
+
+#subscribe-message {
+display: none;
+}
+
+.sports-teams-section {
+padding: 65px 5% 80px;
+background-color: #f5f6f8;
+}
+
+.sports-teams-section h2 {
+font-size: 32px;
+font-weight: 800;
+color: #171b24;
+border-left: 4px solid #ff0033;
+padding-left: 15px;
+margin-bottom: 12px;
+}
+
+.sports-teams-section .section-intro {
+color: #777;
+font-size: 15px;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.sports-team-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+margin-bottom: 60px;
+}
+
+.sports-team-grid:last-child {
+margin-bottom: 0;
+}
+
+.sports-team-card {
+background-color: white;
+padding: 30px 25px;
+border-radius: 10px;
+border-top: 4px solid #ff0033;
+box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+min-height: 170px;
+}
+
+.sports-team-card h3 {
+font-size: 20px;
+line-height: 1.5;
+color: #171b24;
+margin-bottom: 16px;
+}
+
+.sports-team-card p {
+font-size: 14px;
+line-height: 1.7;
+color: #666;
+margin-top: 8px;
+}
+
+.sports-team-card:hover {
+box-shadow: 0 10px 28px rgba(0,0,0,0.14);
+border-top-color: #d92535;
+}
+
+.footer {
+background-color: #080d14;
+color: white;
+padding: 55px 5%;
+display: grid;
+grid-template-columns: 1.35fr 1fr 1.3fr 1fr 0.65fr;
+gap: 30px;
+}
+
+.footer-logo img {
+width: 100%;
+max-width: 245px;
+height: 95px;
+object-fit: contain;
+filter: invert(1);
+}
+
+.footer-logo p {
+font-size: 13px;
+color: #ff0033;
+margin-top: 14px;
+}
+
+.footer h3 {
+font-size: 17px;
+margin-bottom: 24px;
+}
+
+.footer-links ul {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 13px 18px;
+}
+
+.footer-links a,
+.footer-contact p,
+.footer-social a {
+font-size: 13px;
+line-height: 1.7;
+color: #eee;
+}
+
+.footer-contact p {
+margin-bottom: 13px;
+}
+
+.footer-map img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 7px;
+}
+
+.footer-social ul {
+display: flex;
+gap: 9px;
+}
+
+.footer-social a {
+display: flex;
+width: 32px;
+height: 32px;
+border: 1px solid #66707a;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+}
+
+.footer-social a:hover {
+background-color: #ff0033;
+border-color: #ff0033;
+}
+
+.events-page .title {
+position: relative;
+border-left: 2px solid #ff0033;
+padding-left: 14px;
+margin-bottom: 30px;
+}
+
+.events-page .title > span {
+color: #ff0033;
+font-size: 13px;
+font-weight: 700;
+}
+
+.events-page .title h2 {
+font-size: 32px;
+margin-top: 9px;
+line-height: 1.15;
+}
+
+.events-page .title p {
+font-size: 14px;
+color: #4d515b;
+max-width: 420px;
+margin-top: 9px;
+line-height: 1.5;
+}
+
+.events-page .title > a {
+position: absolute;
+right: 0;
+top: 25px;
+color: #ff0033;
+font-size: 14px;
+font-weight: 700;
+}
+
+.events-page .highlights {
+padding: 55px 5% 65px;
+background-color: #f5f8fa;
+}
+
+.events-page .highlight-cards {
+display: grid;
+grid-template-columns: 1.7fr 1fr 1fr;
+gap: 25px;
+}
+
+.events-page .highlight-card {
+position: relative;
+overflow: hidden;
+background-color: white;
+border-radius: 9px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+
+.events-page .highlight-card > img {
+width: 100%;
+height: 165px;
+object-fit: cover;
+display: block;
+}
+
+.events-page .highlight-card .highlight-info {
+padding: 14px 18px;
+min-height: 100px;
+}
+
+.events-page .highlight-info > span {
+position: absolute;
+top: 13px;
+left: 13px;
+color: white;
+background-color: #ff0033;
+border-radius: 5px;
+padding: 8px 13px;
+font-size: 12px;
+font-weight: 700;
+}
+
+.events-page .highlight-info h3 {
+font-size: 16px;
+line-height: 1.55;
+margin-bottom: 10px;
+}
+
+.events-page .highlight-info p {
+font-size: 12px;
+color: #777;
+}
+.events-page .first-card > img {
+height: 265px;
+}
+.events-page .first-card .highlight-info {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 20px 18px;
+color: white;
+background: linear-gradient(transparent, rgba(0,0,0,0.92));
+}
+
+.events-page .first-card .highlight-info h3 {
+font-size: 19px;
+}
+.events-page .first-card .highlight-info p {
+color: white;
+}
+
+.events-page .first-card .highlight-info > span {
+top: -25px;
+}
+
+.events-page .dots {
+display: flex;
+justify-content: center;
+gap: 12px;
+margin-top: 23px;
+}
+
+.events-page .dots span {
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background-color: #cbd0d4;
+}
+
+.events-page .dots span:first-child {
+background-color: #ff0033;
+}
+.events-page .find-events {
+padding: 55px 5% 65px;
+background-color: #f8fafb;
+}
+
+.events-page .find-header {
+display: flex;
+align-items: start;
+justify-content: space-between;
+gap: 40px;
+margin-bottom: 40px;
+}
+
+.events-page .find-header .title {
+width: 40%;
+}
+
+.events-page .filters {
+width: 53%;
+}
+
+.events-page .filters > input {
+width: 100%;
+height: 48px;
+padding: 0 15px;
+border: 1px solid #ddd;
+border-radius: 6px;
+margin-bottom: 10px;
+background-color: white;
+}
+
+.events-page .filter-options {
+display: flex;
+gap: 10px;
+}
+
+.events-page .filter-options input,
+.events-page .filter-options select {
+width: 25%;
+height: 45px;
+padding: 0 8px;
+border: 1px solid #ddd;
+border-radius: 6px;
+background-color: white;
+}
+
+.events-page #filter-btn {
+width: 25%;
+background-color: #ff0033;
+color: white;
+border-radius: 6px;
+font-weight: 700;
+}
+.events-page .event-cards {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 22px;
+}
+
+.events-page .event-card {
+position: relative;
+overflow: hidden;
+background-color: white;
+border-radius: 9px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+
+.events-page .event-card > img {
+width: 100%;
+height: 155px;
+object-fit: cover;
+display: block;
+}
+
+.events-page .event-info {
+padding: 17px 13px;
+}
+
+.events-page .event-info > span {
+position: absolute;
+top: 13px;
+left: 13px;
+color: white;
+background-color: #ff0033;
+border-radius: 5px;
+padding: 8px 13px;
+font-size: 12px;
+font-weight: 700;
+}
+
+.events-page .event-details {
+display: flex;
+gap: 13px;
+}
+
+.events-page .event-date {
+width: 54px;
+flex-shrink: 0;
+border-right: 1px solid #ddd;
+padding-right: 12px;
+}
+
+.events-page .event-date strong {
+display: block;
+color: #ff0033;
+font-size: 25px;
+}
+
+.events-page .event-date span {
+display: block;
+font-size: 12px;
+font-weight: 700;
+margin-top: 3px;
+}
+
+.events-page .event-details h3 {
+font-size: 14px;
+line-height: 1.6;
+min-height: 50px;
+}
+
+.events-page .event-details p {
+color: #888;
+font-size: 12px;
+margin-top: 10px;
+}
+
+.events-page .event-details a {
+display: inline-block;
+color: #ff0033;
+font-size: 13px;
+font-weight: 700;
+margin-top: 10px;
+}
+
+.events-page .upcoming {
+padding: 60px 5%;
+background: linear-gradient(110deg, #07121d 65%, #66001a);
+color: white;
+display: flex;
+justify-content: space-between;
+gap: 55px;
+}
+
+.events-page .upcoming-left {
+width: 65%;
+}
+
+.events-page .upcoming .title h2,
+.events-page .upcoming .title p {
+color: white;
+}
+
+.events-page .upcoming-cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 18px;
+margin-top: 35px;
+}
+
+.events-page .upcoming-cards li {
+border: 1px solid #c20035;
+border-radius: 9px;
+padding: 22px;
+min-height: 170px;
+}
+
+.events-page .upcoming-cards h3 {
+font-size: 26px;
+}
+
+.events-page .upcoming-cards p {
+font-size: 14px;
+margin-top: 6px;
+}
+
+.events-page .upcoming-cards h4 {
+font-size: 13px;
+line-height: 1.5;
+margin-top: 12px;
+}
+
+.events-page .upcoming-cards span {
+font-size: 12px;
+display: block;
+margin-top: 12px;
+}
+
+.events-page #upcoming-link {
+display: inline-block;
+margin-top: 22px;
+color: #ff0033;
+}
+
+.events-page .calendar {
+width: 32%;
+border: 1px solid #e00037;
+border-radius: 10px;
+padding: 24px;
+}
+
+.events-page .calendar h3 {
+font-size: 20px;
+}
+
+.events-page .calendar h4 {
+text-align: center;
+font-size: 16px;
+margin: 20px 0;
+}
+
+.events-page .days {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+gap: 5px;
+text-align: center;
+margin-top: 20px;
+}
+
+.events-page .days span {
+padding: 9px 2px;
+font-size: 12px;
+}
+
+.events-page .days .active-day {
+background-color: #ff0033;
+color: white;
+border-radius: 50%;
+}
+
+.events-page .past-events {
+padding: 55px 5% 65px;
+background-color: #f5f8fa;
+}
+
+.events-page .past-cards {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 22px;
+}
+
+.events-page .past-cards li {
+position: relative;
+}
+
+.events-page .past-cards img {
+display: block;
+width: 100%;
+height: 135px;
+object-fit: cover;
+border-radius: 7px;
+}
+
+.events-page .past-cards span {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 42px;
+height: 42px;
+border: 2px solid white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+transform: translate(-50%, -50%);
+}
+
+.events-page .join {
+padding: 45px 5%;
+background: linear-gradient(100deg, #090f18 60%, #890020);
+color: white;
+display: flex;
+align-items: center;
+gap: 35px;
+flex-wrap: wrap;
+}
+
+.events-page .join-text {
+width: 35%;
+}
+
+.events-page .join-text > span {
+font-size: 13px;
+}
+
+.events-page .join-text h2 {
+font-size: 30px;
+margin-top: 8px;
+}
+
+.events-page .join-text p {
+font-size: 14px;
+line-height: 1.6;
+margin-top: 12px;
+}
+
+.events-page .join-benefits {
+display: flex;
+gap: 25px;
+justify-content: space-between;
+width: 50%;
+text-align: center;
+}
+
+.events-page .join-benefits li {
+width: 25%;
+}
+
+.events-page .join-benefits span {
+font-size: 28px;
+}
+
+.events-page .join-benefits p {
+font-size: 12px;
+font-weight: 700;
+margin-top: 8px;
+}
+
+.events-page #register-btn {
+display: block;
+background-color: #ff0033;
+color: white;
+padding: 12px 24px;
+border-radius: 6px;
+margin: 0 auto;
+font-size: 14px;
+font-weight: 700;
+}
+
+body.dark-mode {
+background-color: #10151e;
+color: #f5f6f8;
+}
+
+.dark-mode .top-news,
+.dark-mode .categories,
+.dark-mode .sports-teams-section {
+background-color: #10151e;
+}
+
+.dark-mode .browse-news,
+.dark-mode .events-page .highlights,
+.dark-mode .events-page .find-events,
+.dark-mode .events-page .past-events {
+background-color: #161d29;
+}
+
+.dark-mode .news-page .title h2,
+.dark-mode .sports-teams-section h2 {
+color: white;
+}
+
+.dark-mode .title h2 {
+color: white;
+}
+
+.dark-mode .title p,
+.dark-mode .sports-teams-section .section-intro {
+color: #bbc1cc;
+}
+
+.dark-mode .news-page .card,
+.dark-mode .category-cards > li,
+.dark-mode .category-cards > div,
+.dark-mode .sports-team-card,
+.dark-mode .events-page .highlight-card,
+.dark-mode .events-page .event-card {
+background-color: #242c3a;
+color: white;
+}
+
+.dark-mode .news-page .card .info h3,
+.dark-mode .category-cards h3,
+.dark-mode .sports-team-card h3,
+.dark-mode .events-page .highlight-info h3,
+.dark-mode .events-page .event-details h3 {
+color: white;
+}
+
+.dark-mode .sports-team-card p,
+.dark-mode .category-cards p,
+.dark-mode .events-page .event-details p {
+color: #c1c6cf;
+}
+
+.dark-mode .news-page .filters {
+background-color: #242c3a;
+}
+
+.dark-mode .news-page .filters input,
+.dark-mode .news-page .filters select,
+.dark-mode .events-page .filters input,
+.dark-mode .events-page .filters select {
+background-color: #161d29;
+color: white;
+border-color: #455064;
+}
+
+.dark-mode .theme-btn {
+background-color: #ff0033;
+border-color: #ff0033;
+color: white;
 }
