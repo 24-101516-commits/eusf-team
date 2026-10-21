@@ -271,3 +271,100 @@
 </div>
 
 </footer>
+<script>
+
+document.getElementById("nav-home").innerHTML = "Home";
+document.getElementById("nav-news").innerHTML = "News";
+document.getElementById("nav-events").innerHTML = "Events";
+document.getElementById("nav-universities").innerHTML = "Universities";
+document.getElementById("nav-matches").innerHTML = "Students Matches";
+document.getElementById("nav-shield").innerHTML = "General Shield";
+document.getElementById("nav-medals").innerHTML = "Universities Medals";
+document.getElementById("nav-about").innerHTML = "About";
+document.getElementById("nav-contact").innerHTML = "Contact";
+document.getElementById("live-btn").innerHTML = "Live ((•))";
+
+document.getElementById("hero-title").innerHTML = "NEWS";
+document.getElementById("hero-description").innerHTML = "Stay updated with the latest news, achievements and activities from Egyptian universities.";
+document.getElementById("breadcrumb-home").innerHTML = "Home";
+document.getElementById("breadcrumb-news").innerHTML = " › News";
+
+document.getElementById("featured-label").innerHTML = "FEATURED NEWS";
+document.getElementById("top-title").innerHTML = "Top News";
+document.getElementById("top-description").innerHTML = "Read the latest and most important news from the Egyptian University Sports Federation.";
+document.getElementById("view-all").innerHTML = "View All News →";
+
+let topTitles = [
+"أسطول من سيارات الإسعاف ترافق أبطالنا في كل مكان",
+"دوري الجامعات والمعاهد المصرية يواصل إبهار الجميع في نسخته رقم 53",
+"ختام فعاليات برنامج دورة الإصابات الرياضية والتأهيل الحركي"
+];
+
+let topImages = [
+"img/1.jpg",
+"img/2.jpg",
+"img/3.jpg"
+];
+
+let topTags = [
+"Latest",
+"Events",
+"Conferences"
+];
+
+let random = Math.floor(Math.random() * 3);
+
+document.getElementById("top-img1").src = topImages[random];
+document.getElementById("top-news1").innerHTML = topTitles[random];
+document.getElementById("top-tag1").innerHTML = topTags[random];
+
+document.getElementById("top-img2").src = topImages[(random + 1) % 3];
+document.getElementById("top-news2").innerHTML = topTitles[(random + 1) % 3];
+document.getElementById("top-tag2").innerHTML = topTags[(random + 1) % 3];
+
+document.getElementById("top-img3").src = topImages[(random + 2) % 3];
+document.getElementById("top-news3").innerHTML = topTitles[(random + 2) % 3];
+document.getElementById("top-tag3").innerHTML = topTags[(random + 2) % 3];
+
+document.getElementById("top-date1").innerHTML = "Friday, March 20, 2026";
+document.getElementById("top-date2").innerHTML = "Friday, March 20, 2026";
+document.getElementById("top-date3").innerHTML = "Friday, March 20, 2026";
+
+document.getElementById("top-read1").innerHTML = "Read More →";
+document.getElementById("top-read2").innerHTML = "Read More →";
+document.getElementById("top-read3").innerHTML = "Read More →";
+document.getElementById("explore-label").innerHTML = "EXPLORE NEWS";
+document.getElementById("browse-title").innerHTML = "Browse All News";
+document.getElementById("browse-description").innerHTML = "Search, filter and explore all the latest news, events, achievements and activities.";
+
+document.getElementById("category-all").innerHTML = "Category";
+document.getElementById("category-competitions").innerHTML = "Competitions";
+document.getElementById("category-events").innerHTML = "Events";
+document.getElementById("category-conferences").innerHTML = "Conferences";
+document.getElementById("sort-latest").innerHTML = "Sort by: Latest";
+document.getElementById("sort-oldest").innerHTML = "Sort by: Oldest";
+document.getElementById("filter-btn").innerHTML = "Filter";
+
+document.getElementById("news-tag1").innerHTML = "Student Achievements";
+document.getElementById("news-tag2").innerHTML = "Competitions";
+document.getElementById("news-tag3").innerHTML = "Conferences";
+document.getElementById("news-tag4").innerHTML = "Events";
+
+document.getElementById("news-date1").innerHTML = "Friday, March 20, 2026";
+document.getElementById("news-date2").innerHTML = "Friday, March 20, 2026";
+document.getElementById("news-date3").innerHTML = "Wednesday, March 18, 2026";
+document.getElementById("news-date4").innerHTML = "Wednesday, March 18, 2026";
+
+document.getElementById("news-title1").innerHTML = "بطولة كرة القدم للجامعات المصرية";
+document.getElementById("news-title2").innerHTML = "ختام مسابقات بطولة البادل للجامعات والمعاهد المصرية";
+document.getElementById("news-title3").innerHTML = "نائب رئيس الاتحاد الرياضي المصري للجامعات يشهد افتتاح فعاليات دوري الجامعات";
+document.getElementById("news-title4").innerHTML = "وزيرا التعليم العالي والشباب والرياضة يشهدان فعاليات البطولة";
+
+document.getElementById("news-read1").innerHTML = "Read More →";
+document.getElementById("news-read2").innerHTML = "Read More →";
+document.getElementById("news-read3").innerHTML = "Read More →";
+document.getElementById("news-read4").innerHTML = "Read More →";
+
+document.getElementById("categories-label").innerHTML = "NEWS CATEGORIES";
+document.getElementById("categories-title").innerHTML = "Explore by Category";
+document.getElementById("categories-description").innerHTML = "Choose a category to view related news";
