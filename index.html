@@ -402,3 +402,61 @@ document.getElementById("newsletter-title").innerHTML = "Subscribe to Our Newsle
 document.getElementById("newsletter-description").innerHTML = "Get the latest news, events and sports updates delivered directly to your inbox.";
 document.getElementById("subscribe-btn").innerHTML = "Subscribe";
 
+document.getElementById("footer-description").innerHTML = "نلتقي بالأنشطة الرياضية بالجامعات المصرية";
+
+document.getElementById("footer-links-title").innerHTML = "Quick Links";
+document.getElementById("footer-home").innerHTML = "Home";
+document.getElementById("footer-about").innerHTML = "About Us";
+document.getElementById("footer-news").innerHTML = "Latest News";
+document.getElementById("footer-events").innerHTML = "Latest Events";
+document.getElementById("footer-universities").innerHTML = "Universities";
+document.getElementById("footer-contact").innerHTML = "Contact Us";
+
+document.getElementById("footer-contact-title").innerHTML = "Contact Us";
+document.getElementById("footer-address").innerHTML = "Al Manyal Al Gharbi, Giza, Giza Governorate";
+document.getElementById("footer-phone").innerHTML = "02 33367071";
+document.getElementById("footer-email").innerHTML = "eusf.org.eg@gmail.com";
+
+document.getElementById("footer-social-title").innerHTML = "Follow Us";
+document.getElementById("facebook").innerHTML = "f";
+document.getElementById("twitter").innerHTML = "X";
+document.getElementById("youtube").innerHTML = "▶";
+document.getElementById("instagram").innerHTML = "◎";
+
+let sports = [
+{ name: "Football", players: 11, category: "Team Sport" },
+{ name: "Basketball", players: 5, category: "Team Sport" },
+{ name: "Swimming", players: 1, category: "Individual Sport" }
+];
+let topTeams = [
+{ name: "Egypt National Football Team", type: "National Team", sport: "Football" },
+{ name: "Egypt Youth Football Team", type: "Youth Team", sport: "Football" },
+{ name: "Cairo University Sports Team", type: "University Team", sport: "University Sports" }
+];
+
+for (let i = 0; i < sports.length; i++) {
+document.getElementById("sports-list").innerHTML +=
+'<li class="sports-team-card"><h3>' + sports[i].name + '</h3><p>Players: ' +
+sports[i].players + '</p><p>Type: ' + sports[i].category + '</p></li>';
+}
+
+for (let i = 0; i < topTeams.length; i++) {
+document.getElementById("teams-list").innerHTML +=
+'<li class="sports-team-card"><h3>' + topTeams[i].name + '</h3><p>Team Type: ' +
+topTeams[i].type + '</p><p>Sport: ' + topTeams[i].sport + '</p></li>';
+}
+
+let themeButton = document.getElementById("theme-btn");
+themeButton.addEventListener("click", function () {
+document.body.classList.toggle("dark-mode");
+if (document.body.classList.contains("dark-mode")) {
+themeButton.innerHTML = "☀ Light Mode";
+} else {
+themeButton.innerHTML = "☾ Dark Mode";
+}
+});
+
+</script>
+
+</body>
+</html>
